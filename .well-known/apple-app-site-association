@@ -1,0 +1,20 @@
+{
+    "applinks": {
+        "apps": [],
+        "details": [
+            {
+                "appIDs": [
+                    "com.lippomalls.styles"
+                ],
+                "paths": [
+                    "*"
+                ]
+            }
+        ]
+    },
+    "webcredentials": {
+        "apps": [
+            "com.lippomalls.styles"
+        ]
+    }
+}

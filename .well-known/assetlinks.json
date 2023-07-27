@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "Styles",
+    "package_name": "com.lippomalls.styles",
+    "sha256_cert_fingerprints":
+    ["EE:FA:E5:D9:3B:96:84:0A:B1:93:6D:B4:C5:70:03:63:D6:E0:32:FF:A9:78:A8:E5:39:CD:62:81:94:95:D8:49"]
+  }
+}]
