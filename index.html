@@ -99,7 +99,7 @@ function DetectAndServe(){
     if(navigator.userAgent.toLowerCase().indexOf("android") > -1){
             //openApp();
             var newURL = window.location.pathname
-            openAplikasi('intent://styles'+ newURL)
+            openAplikasi('intent://styles'+ newURL + '#Intent;scheme=styles;package=com.lippomalls.styles;end;')
         }
         if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
               var newURL = window.location.pathname
