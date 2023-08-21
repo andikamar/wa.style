@@ -99,12 +99,18 @@ function DetectAndServe(){
     if(navigator.userAgent.toLowerCase().indexOf("android") > -1){
             //openApp();
             var newURL = window.location.pathname
-            openAplikasi('intent://styles'+ newURL + '#Intent;scheme=styles;package=com.lippomalls.styles;end;')
+           // openAplikasi('intent://styles'+ newURL)
+            window.onload = function() {
+    deeplink.open("intent://styles" + newURL);
+}
         }
         if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
               var newURL = window.location.pathname
               //window.location.replace('styles://'+ newURL);
-              openAplikasi('styles://'+ newURL)
+              // openAplikasi('styles://'+ newURL)
+              window.onload = function() {
+    deeplink.open("styles://" + newURL);
+}
         }
 }
 </script>
