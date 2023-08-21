@@ -85,7 +85,12 @@
 	</div>
 <script>
 deeplink.setup({
-    fallback: false
+    iOS: {
+        storeUrl: "https://www.google.com/"
+    },
+    ANDROID: {
+        storeUrl: "https://www.google.com/"
+    }
     });
     function openAplikasi(uri) {
         deeplink.open(uri);
